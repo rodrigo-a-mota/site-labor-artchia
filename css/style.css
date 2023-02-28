@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: "Helvetica-Roman";
-    src: url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.eot");
-    src: url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.eot?#iefix") format("embedded-opentype"),
-         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.woff2") format("woff2"),
-         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.woff") format("woff"),
-         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.ttf") format("truetype"),
-         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.svg#HelveticaW01-Roman") format("svg"); 
+    src: url("../fonts/c5bd605b45237a12c99133fa9d7cae49.eot");
+    src: url("../fonts/c5bd605b45237a12c99133fa9d7cae49.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/c5bd605b45237a12c99133fa9d7cae49.woff2") format("woff2"),
+         url("../fonts/c5bd605b45237a12c99133fa9d7cae49.woff") format("woff"),
+         url("../fonts/c5bd605b45237a12c99133fa9d7cae49.ttf") format("truetype"),
+         url("../fonts/c5bd605b45237a12c99133fa9d7cae49.svg#HelveticaW01-Roman") format("svg"); 
 }
 
 body{
