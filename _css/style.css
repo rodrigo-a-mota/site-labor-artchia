@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url("../_fonts/e89eb1cff9eb261b0d77a4dea27f1ef1.eot");
+    src: url("../_fonts/e89eb1cff9eb261b0d77a4dea27f1ef1.eot?#iefix") format("embedded-opentype"),
+         url("../_fonts/e89eb1cff9eb261b0d77a4dea27f1ef1.woff2") format("woff2"),
+         url("../fonts/e89eb1cff9eb261b0d77a4dea27f1ef1.woff") format("woff"),
+         url("../_fonts/e89eb1cff9eb261b0d77a4dea27f1ef1.ttf") format("truetype"),
+         url("../fonts/e89eb1cff9eb261b0d77a4dea27f1ef1.svg#HelveticaW01-Light") format("svg");
+}
+
+@font-face {
+    font-family: "Helvetica-Roman";
+    src: url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.eot");
+    src: url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.eot?#iefix") format("embedded-opentype"),
+         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.woff2") format("woff2"),
+         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.woff") format("woff"),
+         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.ttf") format("truetype"),
+         url("../_fonts/c5bd605b45237a12c99133fa9d7cae49.svg#HelveticaW01-Roman") format("svg"); 
+}
+
+body{
+    margin: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* HEADER Config CSS*/
+
+.menu {
+    font-family: Helvetica-Light;
+    font-size: 16px;
+}
+.menu > h1 {
+    display: none;
+}
+
+.menu > ul {
+    list-style: none;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner-logo {
+    display: flex;
+    background-color: #ad6100;
+}
+
+.image-primary {
+    width: 50%;
+    padding: 10px;
+}
+
+.image-primary > img {
+    width: 150px;
+}
+
+.image-secondary {
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+}
+
+.image-secondary > img {
+    width: 200px;
+}
+
+.bio {
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio > h1 {
+    font-weight: 400px;
+    font-size: 36px;
+    font-family: Helvetica-Roman, sans-serif;
+}
+
+.bio > p {
+    font-weight: 400px;
+    font-size: 29px;
+    font-family: Helvetica-Light, sans-serif;
+}
