@@ -54,6 +54,7 @@ body{
 .menu > ul > li > a {
     text-decoration: none;
     color: #ffffff;
+    transition: 1000ms;
 }
 
 .menu > ul > li > a:hover {
@@ -153,40 +154,4 @@ body{
     cursor: pointer;
     background-color: #ad6100;
     border-radius: 20px;
-}
-
-.container {
-    border-top: 1px solid #ad6100;
-    width: 100%;
-}
-
-.container > section {
-    margin-top: 30px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pictures {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.picture {
-    overflow: hidden;
-    display: inline-block;
-    margin: 10px;
-}
-
-.picture > img {
-    display: block;
-    width: 300px;
-    height: 223.94px;
-    transition: 900ms;
-}
-
-.picture:hover img {
-    scale: 1.5;
-    cursor: pointer;
 }
